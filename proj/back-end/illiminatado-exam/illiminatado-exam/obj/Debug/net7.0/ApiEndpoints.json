@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "illiminatado_exam.Controllers.TimeAttendance.UploadController",
+    "Method": "GetAll",
+    "RelativePath": "api/Upload",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "illiminatado_exam.Controllers.TimeAttendance.UploadController",
+    "Method": "ExportPayroll",
+    "RelativePath": "api/Upload/export/{payrollNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payrollNo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "illiminatado_exam.Controllers.TimeAttendance.UploadController",
+    "Method": "Upload",
+    "RelativePath": "api/Upload/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

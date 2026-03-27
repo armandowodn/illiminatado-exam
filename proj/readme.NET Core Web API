@@ -1,0 +1,23 @@
+ASP.NET Core Web API
+
+
+DB_NAME : illiminatado_exam
+
+
+QUERY:
+CREATE DATABASE illiminatado_exam;
+/c illiminatado_exam
+SELECT * FROM illiminatado_exam.pay_regs;
+
+
+MIGRATION
+x. 
+x. to Remove database : dotnet ef database drop
+x. Command : dotnet ef migrations add InitialCreate (first attempt)
+2. refresh migration : dotnet ef database update
+
+
+
+Note:
+1. From excel, there's a duplicate column (monthly_salary_rate)
+2. Excel Password : In1
