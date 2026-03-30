@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("illiminatado-exam")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e062482d8594598c615db237d6d6807a90f4d9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("illiminatado-exam")]
 [assembly: System.Reflection.AssemblyTitleAttribute("illiminatado-exam")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

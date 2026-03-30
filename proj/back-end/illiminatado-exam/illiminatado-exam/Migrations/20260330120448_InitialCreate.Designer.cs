@@ -12,7 +12,7 @@ using illiminatado_exam.Data;
 namespace illiminatado_exam.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260327134855_InitialCreate")]
+    [Migration("20260330120448_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -25,13 +25,48 @@ namespace illiminatado_exam.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("illiminatado_exam.Model.OtReg", b =>
+            modelBuilder.Entity("illiminatado_exam.Model.EmpMaster", b =>
                 {
-                    b.Property<int>("payroll")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("payroll"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<decimal>("daily_rate")
+                        .HasColumnType("numeric");
+
+                    b.Property<int>("employee_id")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("file_status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("first_name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("last_name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("tax_status")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("id");
+
+                    b.ToTable("tbl_m_employee");
+                });
+
+            modelBuilder.Entity("illiminatado_exam.Model.OtReg", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
 
                     b.Property<int>("cost_center")
                         .HasColumnType("integer");
@@ -107,6 +142,9 @@ namespace illiminatado_exam.Migrations
                     b.Property<DateTime>("pay_date")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<int>("payroll")
+                        .HasColumnType("integer");
+
                     b.Property<int>("recur_end")
                         .HasColumnType("integer");
 
@@ -134,7 +172,7 @@ namespace illiminatado_exam.Migrations
                     b.Property<DateTime>("to")
                         .HasColumnType("timestamp with time zone");
 
-                    b.HasKey("payroll");
+                    b.HasKey("id");
 
                     b.ToTable("ot_reg");
                 });
@@ -151,9 +189,8 @@ namespace illiminatado_exam.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("att_deduction")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<decimal>("att_deduction")
+                        .HasColumnType("numeric");
 
                     b.Property<string>("bank_acct")
                         .IsRequired()
@@ -222,23 +259,11 @@ namespace illiminatado_exam.Migrations
                     b.Property<int>("exchange_rate")
                         .HasColumnType("integer");
 
-                    b.Property<string>("file_status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("first_name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<DateTime>("from")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<decimal>("gross_income")
                         .HasColumnType("numeric");
-
-                    b.Property<string>("last_name")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.Property<decimal>("loan_payments")
                         .HasColumnType("numeric");
@@ -291,9 +316,8 @@ namespace illiminatado_exam.Migrations
                     b.Property<decimal>("other_ntx_income")
                         .HasColumnType("numeric");
 
-                    b.Property<string>("overtime")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<decimal>("overtime")
+                        .HasColumnType("numeric");
 
                     b.Property<string>("pay_code")
                         .IsRequired()
@@ -338,10 +362,6 @@ namespace illiminatado_exam.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("tax_status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("tax_table")
                         .IsRequired()
                         .HasColumnType("text");
@@ -363,13 +383,37 @@ namespace illiminatado_exam.Migrations
 
             modelBuilder.Entity("illiminatado_exam.Model.TimeAttendance", b =>
                 {
-                    b.Property<int>("payroll_id")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("payroll_id"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
 
                     b.Property<decimal>("absent_days")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("dbl_hol_ot")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("dbl_hol_ot_1")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("dbl_hol_ot_2")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("dbl_hol_ot_3")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("dbl_hol_rd")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("dbl_hol_rd_1")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("dbl_hol_rd_2")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("dbl_hol_rd_3")
                         .HasColumnType("numeric");
 
                     b.Property<int>("employee_id")
@@ -383,6 +427,30 @@ namespace illiminatado_exam.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<decimal>("legal_hol_ot")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("legal_hol_ot_1")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("legal_hol_ot_2")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("legal_hol_ot_3")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("legal_hol_rd")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("legal_hol_rd_1")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("legal_hol_rd_2")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("legal_hol_rd_3")
+                        .HasColumnType("numeric");
+
                     b.Property<decimal>("lwop_days")
                         .HasColumnType("numeric");
 
@@ -392,22 +460,64 @@ namespace illiminatado_exam.Migrations
                     b.Property<decimal>("otherlv_days")
                         .HasColumnType("numeric");
 
+                    b.Property<int>("payroll_id")
+                        .HasColumnType("integer");
+
                     b.Property<decimal>("reg_ot")
                         .HasColumnType("numeric");
 
                     b.Property<decimal>("reg_otNp_hr")
                         .HasColumnType("numeric");
 
+                    b.Property<decimal>("res_day_ot")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("res_day_ot_1")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("res_day_ot_2")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("res_day_ot_3")
+                        .HasColumnType("numeric");
+
                     b.Property<decimal>("sl_days")
                         .HasColumnType("numeric");
 
-                    b.Property<decimal>("underTime_hrs")
+                    b.Property<decimal>("specl_hol_ot")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("specl_hol_ot_1")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("specl_hol_ot_2")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("specl_hol_ot_3")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("specl_hol_rd")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("specl_hol_rd_1")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("specl_hol_rd_2")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("specl_hol_rd_3")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("tardy_hrs")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal>("undertime_hrs")
                         .HasColumnType("numeric");
 
                     b.Property<decimal>("vl_days")
                         .HasColumnType("numeric");
 
-                    b.HasKey("payroll_id");
+                    b.HasKey("id");
 
                     b.ToTable("time_attend");
                 });

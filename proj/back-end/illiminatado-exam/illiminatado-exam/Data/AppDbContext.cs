@@ -12,5 +12,6 @@ namespace illiminatado_exam.Data
         public DbSet<PayReg> PayRegs { get; set; }
         public DbSet<OtReg> OtReg { get; set; }
         public DbSet<TimeAttendance> TimeAttendances { get; set; }
+        public DbSet<EmpMaster> EmpMaster { get; set; }
     }
 }

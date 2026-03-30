@@ -11,16 +11,12 @@ namespace illiminatado_exam.Model
         public DateTime pay_date { get; set; } = DateTime.UtcNow;
         public string pay_code { get; set; } = string.Empty;
         public int employee_id { get; set; }
-        public string last_name { get; set; } = string.Empty;
-        public string first_name { get; set; } = string.Empty;
-        public string file_status { get; set; } = string.Empty;
-        public string tax_status { get; set; } = string.Empty;
         public decimal monthly_salary_rate { get; set; }
         public decimal basic_salary { get; set; }
         public decimal daily_rate { get; set; }
         public string salary_rate_type { get; set; } = string.Empty;
-        public string att_deduction { get; set; } = string.Empty;
-        public string overtime { get; set; } = string.Empty;
+        public decimal att_deduction { get; set; }
+        public decimal overtime { get; set; }
         public string adjustments { get; set; } = string.Empty;
         public decimal gross_income { get; set; }
         public int employee_sss { get; set; }

@@ -41,6 +41,18 @@
         }
       }
     },
+    "/api/Upload/employee-info": {
+      "get": {
+        "tags": [
+          "Upload"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Upload/upload": {
       "post": {
         "tags": [

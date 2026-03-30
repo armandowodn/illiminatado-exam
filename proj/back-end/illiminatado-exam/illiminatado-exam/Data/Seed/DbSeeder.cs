@@ -1,31 +1,82 @@
-﻿using illiminatado_exam.Model;
+﻿using DocumentFormat.OpenXml.InkML;
+using illiminatado_exam.Model;
+using illiminatado_exam.Services.Master;
+using illiminatado_exam.Services.Transactions;
 
 namespace illiminatado_exam.Data.Seed
 {
     public class DbSeeder
     {
+        private readonly EmployeeMasterServices _employeeService;
+        private readonly PayRegServices _payRegService;
+        private readonly OtRegServices _otRegService;
+        public DbSeeder(EmployeeMasterServices employeeService, PayRegServices payRegService, OtRegServices otRegService)
+        {
+            _employeeService = employeeService;
+            _payRegService = payRegService;
+            _otRegService = otRegService;
+        }
         public static void Seed(AppDbContext context) {
-            //if (context.PayRegs.Any())
-            //    return;
-            var savePayReg = new List<PayReg>
+            seed_EmpMaster(context);
+            seed_PayReg(context);
+            seed_OtReg(context);
+        }
+        private static void seed_EmpMaster(AppDbContext context) {
+            var save = new List<EmpMaster>
+            {
+                new EmpMaster
+                {
+                    employee_id = 85403,
+                    last_name = "ABUY",
+                    first_name =  "JESSEN",
+                    file_status = "EMPLOYEE",
+                    tax_status = "S",
+                    daily_rate = 0
+                },
+                new EmpMaster
+                {
+                    employee_id = 85206,
+                    last_name = "MAGNO",
+                    first_name =  "CLARKE",
+                    file_status = "EMPLOYEE",
+                    tax_status = "S",
+                    daily_rate = 0
+                },
+            };
+            var service = new EmployeeMasterServices(context);
+            service.SaveEmployee(save);
+        }
+        private static void seed_PayReg(AppDbContext context)
+        {
+            var save = new List<PayReg>
             {
                 new PayReg
                 {
-                    pay_date = new DateTime(2026, 3, 27, 0, 0, 0, DateTimeKind.Utc),
+                    pay_date = new DateTime(2020, 3, 31, 0, 0, 0, DateTimeKind.Utc),
                     pay_code = "BROADSPIRE-SEMI",
-                    employee_id = 67012,
-                    last_name = "GARCIA",
-                    first_name = "ANNELIE"
+                    employee_id = 85206,
+                    salary_rate_type = "PER MONTH",
+                    monthly_salary_rate = 22000
+                },
+                new PayReg
+                {
+                    pay_date = new DateTime(2020, 3, 31, 0, 0, 0, DateTimeKind.Utc),
+                    pay_code = "BROADSPIRE-SEMI",
+                    salary_rate_type = "PER MONTH",
+                    employee_id = 85403,
+                    monthly_salary_rate = 21292
                 },
             };
-            context.PayRegs.RemoveRange(context.PayRegs);
-            context.PayRegs.AddRange(savePayReg);
-            context.SaveChanges();
-
-            var saveOtReg = new List<OtReg>
+            var service = new PayRegServices(context);
+            service.SavePayReg(save);
+        }
+        private static void seed_OtReg(AppDbContext context)
+        {
+            var save = new List<OtReg>
             {
                 new OtReg
                 {
+                    payroll = 64,
                     pay_date = new DateTime(2026, 3, 27, 0, 0, 0, DateTimeKind.Utc),
                     pay_code = "BROADSPIRE-SEMI",
                     employee_id = 67008,
@@ -60,11 +111,12 @@ namespace illiminatado_exam.Data.Seed
                 },
                 new OtReg
                 {
+                    payroll = 64,
                     pay_date = new DateTime(2026, 3, 27, 0, 0, 0, DateTimeKind.Utc),
                     pay_code = "BROADSPIRE-SEMI",
-                    employee_id = 67008,
-                    last_name = "GARCIA",
-                    first_name = "ANNELIE",
+                    employee_id = 85206,
+                    last_name = "MAGNO",
+                    first_name = "CLARKE",
                     file_status = "EMPLOYEE",
                     ot_code = "NITE-DIFF",
                     created_date = new DateTime(2026, 3, 27, 0, 0, 0, DateTimeKind.Utc),
@@ -93,11 +145,8 @@ namespace illiminatado_exam.Data.Seed
                     je_cost_center = 5035,
                 },
             };
-            context.OtReg.RemoveRange(context.OtReg);
-            context.OtReg.AddRange(saveOtReg);
-            context.SaveChanges();
-
-
+            var service = new OtRegServices(context);
+            service.SaveOtReg(save);
         }
     }
 }

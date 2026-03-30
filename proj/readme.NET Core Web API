@@ -1,23 +1,32 @@
-ASP.NET Core Web API
-
-
-DB_NAME : illiminatado_exam
-
-
-QUERY:
-CREATE DATABASE illiminatado_exam;
-/c illiminatado_exam
-SELECT * FROM illiminatado_exam.pay_regs;
-
-
-MIGRATION
-x. 
-x. to Remove database : dotnet ef database drop
-x. Command : dotnet ef migrations add InitialCreate (first attempt)
-2. refresh migration : dotnet ef database update
 
 
 
 Note:
 1. From excel, there's a duplicate column (monthly_salary_rate)
 2. Excel Password : In1
+
+DB_NAME : illiminatado_exam
+
+
+QUERY:
+CREATE DATABASE illiminatado_exam;
+================
+BACK END : ASP.NET Core Web API
+================
+
+MIGRATION & SEEDER
+dotnet ef database drop --force
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+dotnet run -- --seed
+
+
+
+================
+FRONT END : Angular
+================
+1. if No node_modules & package-lock.json
+    command : npm i
+    command : ng build
+2. to run application
+    command : ng start

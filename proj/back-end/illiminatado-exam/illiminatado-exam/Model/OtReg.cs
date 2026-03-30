@@ -7,6 +7,7 @@ namespace illiminatado_exam.Model
     public class OtReg
     {
         [Key]
+        public int id { get; set; }
         public int payroll { get; set; }
         public DateTime pay_date { get; set; } = DateTime.UtcNow;
         public string pay_code { get; set; } = string.Empty;

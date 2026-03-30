@@ -11,6 +11,16 @@
   },
   {
     "ContainingType": "illiminatado_exam.Controllers.TimeAttendance.UploadController",
+    "Method": "EmployeeInfo",
+    "RelativePath": "api/Upload/employee-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "illiminatado_exam.Controllers.TimeAttendance.UploadController",
     "Method": "ExportPayroll",
     "RelativePath": "api/Upload/export/{payrollNo}",
     "HttpMethod": "GET",

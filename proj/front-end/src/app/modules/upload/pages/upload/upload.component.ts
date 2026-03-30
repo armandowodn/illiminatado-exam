@@ -21,7 +21,7 @@ import { Observable } from 'rxjs';
 export class UploadComponent {
 
   selectedFile: File | null = null;
-  payrollNo: number = 67008;
+  payrollNo: number = 64;
   loading = false;
   message = '';
 

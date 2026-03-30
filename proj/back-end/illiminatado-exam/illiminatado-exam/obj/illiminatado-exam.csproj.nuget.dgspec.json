@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj": {}
+    "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj": {
+    "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj",
+        "projectUniqueName": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj",
         "projectName": "illiminatado-exam",
-        "projectPath": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj",
+        "projectPath": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj",
         "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\obj\\",
+        "outputPath": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

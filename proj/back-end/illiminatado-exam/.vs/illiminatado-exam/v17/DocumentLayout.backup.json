@@ -1,46 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\",
+  "WorkspaceRootPath": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\data\\seed\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\data\\seed\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\model\\otreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\model\\otreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\model\\timeattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\model\\timeattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\model\\upload\\timeattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\model\\upload\\timeattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\services\\excel\\payrollexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\services\\excel\\payrollexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\controllers\\timeattendance\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\controllers\\timeattendance\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\model\\payreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\model\\payreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\onedrive\\desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\illiminatado-exam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\services\\excel\\payrollexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\services\\excel\\payrollexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\controllers\\timeattendance\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\controllers\\timeattendance\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\model\\empmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\model\\empmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\data\\seed\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\data\\seed\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\services\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\services\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\model\\payreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\model\\payreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\model\\otreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\model\\otreg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\model\\upload\\timeattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\model\\upload\\timeattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\model\\timeattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\model\\timeattendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\data\\seed\\dbseederrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\data\\seed\\dbseederrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|c:\\users\\arman\\downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\services\\transactions\\otregservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17D7E797-8315-47A2-991D-B88A2DB10780}|illiminatado-exam\\illiminatado-exam.csproj|solutionrelative:illiminatado-exam\\services\\transactions\\otregservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +66,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PayrollExportService.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Services\\Excel\\PayrollExportService.cs",
-              "RelativeDocumentMoniker": "illiminatado-exam\\Services\\Excel\\PayrollExportService.cs",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Services\\Excel\\PayrollExportService.cs",
-              "RelativeToolTip": "illiminatado-exam\\Services\\Excel\\PayrollExportService.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAAKIAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T12:34:41.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TimeAttendance.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\Upload\\TimeAttendance.cs",
-              "RelativeDocumentMoniker": "illiminatado-exam\\Model\\Upload\\TimeAttendance.cs",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\Upload\\TimeAttendance.cs",
-              "RelativeToolTip": "illiminatado-exam\\Model\\Upload\\TimeAttendance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\DTOs\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\DTOs\\EmployeeDto.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\DTOs\\EmployeeDto.cs",
+              "RelativeToolTip": "illiminatado-exam\\DTOs\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T11:33:42.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TimeAttendance.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\TimeAttendance.cs",
-              "RelativeDocumentMoniker": "illiminatado-exam\\Model\\TimeAttendance.cs",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\TimeAttendance.cs",
-              "RelativeToolTip": "illiminatado-exam\\Model\\TimeAttendance.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:37:33.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UploadController.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Controllers\\TimeAttendance\\UploadController.cs",
-              "RelativeDocumentMoniker": "illiminatado-exam\\Controllers\\TimeAttendance\\UploadController.cs",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Controllers\\TimeAttendance\\UploadController.cs",
-              "RelativeToolTip": "illiminatado-exam\\Controllers\\TimeAttendance\\UploadController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:29:53.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "illiminatado-exam",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj",
-              "RelativeDocumentMoniker": "illiminatado-exam\\illiminatado-exam.csproj",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj",
-              "RelativeToolTip": "illiminatado-exam\\illiminatado-exam.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-27T09:08:50.644Z",
+              "WhenOpened": "2026-03-30T12:24:22.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OtReg.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\OtReg.cs",
-              "RelativeDocumentMoniker": "illiminatado-exam\\Model\\OtReg.cs",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\OtReg.cs",
-              "RelativeToolTip": "illiminatado-exam\\Model\\OtReg.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAYwCMAAABCAAAAAAAAAA==",
+              "Title": "PayrollExportService.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Services\\Excel\\PayrollExportService.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Services\\Excel\\PayrollExportService.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Services\\Excel\\PayrollExportService.cs",
+              "RelativeToolTip": "illiminatado-exam\\Services\\Excel\\PayrollExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:59:37.568Z",
+              "WhenOpened": "2026-03-30T10:44:05.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DbSeeder.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\Seed\\DbSeeder.cs",
-              "RelativeDocumentMoniker": "illiminatado-exam\\Data\\Seed\\DbSeeder.cs",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\Seed\\DbSeeder.cs",
-              "RelativeToolTip": "illiminatado-exam\\Data\\Seed\\DbSeeder.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswDAAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Controllers\\TimeAttendance\\UploadController.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Controllers\\TimeAttendance\\UploadController.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Controllers\\TimeAttendance\\UploadController.cs",
+              "RelativeToolTip": "illiminatado-exam\\Controllers\\TimeAttendance\\UploadController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:50:58.678Z",
+              "WhenOpened": "2026-03-30T03:29:07.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Program.cs",
-              "RelativeDocumentMoniker": "illiminatado-exam\\Program.cs",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Program.cs",
-              "RelativeToolTip": "illiminatado-exam\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "illiminatado-exam\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:56:36.745Z",
+              "WhenOpened": "2026-03-30T03:15:22.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpMaster.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\EmpMaster.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Model\\EmpMaster.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\EmpMaster.cs",
+              "RelativeToolTip": "illiminatado-exam\\Model\\EmpMaster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T03:12:54.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "PayReg.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\PayReg.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\PayReg.cs",
               "RelativeDocumentMoniker": "illiminatado-exam\\Model\\PayReg.cs",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\PayReg.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\PayReg.cs",
               "RelativeToolTip": "illiminatado-exam\\Model\\PayReg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:51:43.88Z",
+              "WhenOpened": "2026-03-30T03:11:49.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OtReg.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\OtReg.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Model\\OtReg.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\OtReg.cs",
+              "RelativeToolTip": "illiminatado-exam\\Model\\OtReg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T05:31:15.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "illiminatado-exam\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "illiminatado-exam\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Services\\Helpers.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Services\\Helpers.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Services\\Helpers.cs",
+              "RelativeToolTip": "illiminatado-exam\\Services\\Helpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T07:51:11.274Z",
+              "WhenOpened": "2026-03-30T07:05:22.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Program.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Program.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Program.cs",
+              "RelativeToolTip": "illiminatado-exam\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T07:03:05.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\Seed\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Data\\Seed\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\Seed\\DbSeeder.cs",
+              "RelativeToolTip": "illiminatado-exam\\Data\\Seed\\DbSeeder.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwDIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T10:53:03.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DbSeederRunner.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\Seed\\DbSeederRunner.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Data\\Seed\\DbSeederRunner.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Data\\Seed\\DbSeederRunner.cs",
+              "RelativeToolTip": "illiminatado-exam\\Data\\Seed\\DbSeederRunner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T06:45:02.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TimeAttendance.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\TimeAttendance.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Model\\TimeAttendance.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\TimeAttendance.cs",
+              "RelativeToolTip": "illiminatado-exam\\Model\\TimeAttendance.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T04:03:30.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TimeAttendance.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\Upload\\TimeAttendance.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Model\\Upload\\TimeAttendance.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Model\\Upload\\TimeAttendance.cs",
+              "RelativeToolTip": "illiminatado-exam\\Model\\Upload\\TimeAttendance.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T05:36:31.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OtRegServices.cs",
+              "DocumentMoniker": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Services\\Transactions\\OtRegServices.cs",
+              "RelativeDocumentMoniker": "illiminatado-exam\\Services\\Transactions\\OtRegServices.cs",
+              "ToolTip": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\Services\\Transactions\\OtRegServices.cs",
+              "RelativeToolTip": "illiminatado-exam\\Services\\Transactions\\OtRegServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T03:39:45.207Z",
               "EditorCaption": ""
             }
           ]

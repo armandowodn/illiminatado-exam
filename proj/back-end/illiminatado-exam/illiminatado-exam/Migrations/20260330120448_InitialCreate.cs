@@ -16,8 +16,9 @@ namespace illiminatado_exam.Migrations
                 name: "ot_reg",
                 columns: table => new
                 {
-                    payroll = table.Column<int>(type: "integer", nullable: false)
+                    id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    payroll = table.Column<int>(type: "integer", nullable: false),
                     pay_date = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     pay_code = table.Column<string>(type: "text", nullable: false),
                     employee_id = table.Column<int>(type: "integer", nullable: false),
@@ -52,7 +53,7 @@ namespace illiminatado_exam.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ot_reg", x => x.payroll);
+                    table.PrimaryKey("PK_ot_reg", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
@@ -64,16 +65,12 @@ namespace illiminatado_exam.Migrations
                     pay_date = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     pay_code = table.Column<string>(type: "text", nullable: false),
                     employee_id = table.Column<int>(type: "integer", nullable: false),
-                    last_name = table.Column<string>(type: "text", nullable: false),
-                    first_name = table.Column<string>(type: "text", nullable: false),
-                    file_status = table.Column<string>(type: "text", nullable: false),
-                    tax_status = table.Column<string>(type: "text", nullable: false),
                     monthly_salary_rate = table.Column<decimal>(type: "numeric", nullable: false),
                     basic_salary = table.Column<decimal>(type: "numeric", nullable: false),
                     daily_rate = table.Column<decimal>(type: "numeric", nullable: false),
                     salary_rate_type = table.Column<string>(type: "text", nullable: false),
-                    att_deduction = table.Column<string>(type: "text", nullable: false),
-                    overtime = table.Column<string>(type: "text", nullable: false),
+                    att_deduction = table.Column<decimal>(type: "numeric", nullable: false),
+                    overtime = table.Column<decimal>(type: "numeric", nullable: false),
                     adjustments = table.Column<string>(type: "text", nullable: false),
                     gross_income = table.Column<decimal>(type: "numeric", nullable: false),
                     employee_sss = table.Column<int>(type: "integer", nullable: false),
@@ -131,15 +128,35 @@ namespace illiminatado_exam.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "time_attend",
+                name: "tbl_m_employee",
                 columns: table => new
                 {
-                    payroll_id = table.Column<int>(type: "integer", nullable: false)
+                    id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     employee_id = table.Column<int>(type: "integer", nullable: false),
                     last_name = table.Column<string>(type: "text", nullable: false),
                     first_name = table.Column<string>(type: "text", nullable: false),
-                    underTime_hrs = table.Column<decimal>(type: "numeric", nullable: false),
+                    file_status = table.Column<string>(type: "text", nullable: false),
+                    tax_status = table.Column<string>(type: "text", nullable: false),
+                    daily_rate = table.Column<decimal>(type: "numeric", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_tbl_m_employee", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "time_attend",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    payroll_id = table.Column<int>(type: "integer", nullable: false),
+                    employee_id = table.Column<int>(type: "integer", nullable: false),
+                    last_name = table.Column<string>(type: "text", nullable: false),
+                    first_name = table.Column<string>(type: "text", nullable: false),
+                    tardy_hrs = table.Column<decimal>(type: "numeric", nullable: false),
+                    undertime_hrs = table.Column<decimal>(type: "numeric", nullable: false),
                     absent_days = table.Column<decimal>(type: "numeric", nullable: false),
                     lwop_days = table.Column<decimal>(type: "numeric", nullable: false),
                     vl_days = table.Column<decimal>(type: "numeric", nullable: false),
@@ -147,11 +164,39 @@ namespace illiminatado_exam.Migrations
                     otherlv_days = table.Column<decimal>(type: "numeric", nullable: false),
                     nit_diff = table.Column<decimal>(type: "numeric", nullable: false),
                     reg_ot = table.Column<decimal>(type: "numeric", nullable: false),
-                    reg_otNp_hr = table.Column<decimal>(type: "numeric", nullable: false)
+                    reg_otNp_hr = table.Column<decimal>(type: "numeric", nullable: false),
+                    legal_hol_ot = table.Column<decimal>(type: "numeric", nullable: false),
+                    legal_hol_ot_1 = table.Column<decimal>(type: "numeric", nullable: false),
+                    legal_hol_ot_2 = table.Column<decimal>(type: "numeric", nullable: false),
+                    legal_hol_ot_3 = table.Column<decimal>(type: "numeric", nullable: false),
+                    legal_hol_rd = table.Column<decimal>(type: "numeric", nullable: false),
+                    legal_hol_rd_1 = table.Column<decimal>(type: "numeric", nullable: false),
+                    legal_hol_rd_2 = table.Column<decimal>(type: "numeric", nullable: false),
+                    legal_hol_rd_3 = table.Column<decimal>(type: "numeric", nullable: false),
+                    specl_hol_ot = table.Column<decimal>(type: "numeric", nullable: false),
+                    specl_hol_ot_1 = table.Column<decimal>(type: "numeric", nullable: false),
+                    specl_hol_ot_2 = table.Column<decimal>(type: "numeric", nullable: false),
+                    specl_hol_ot_3 = table.Column<decimal>(type: "numeric", nullable: false),
+                    specl_hol_rd = table.Column<decimal>(type: "numeric", nullable: false),
+                    specl_hol_rd_1 = table.Column<decimal>(type: "numeric", nullable: false),
+                    specl_hol_rd_2 = table.Column<decimal>(type: "numeric", nullable: false),
+                    specl_hol_rd_3 = table.Column<decimal>(type: "numeric", nullable: false),
+                    res_day_ot = table.Column<decimal>(type: "numeric", nullable: false),
+                    res_day_ot_1 = table.Column<decimal>(type: "numeric", nullable: false),
+                    res_day_ot_2 = table.Column<decimal>(type: "numeric", nullable: false),
+                    res_day_ot_3 = table.Column<decimal>(type: "numeric", nullable: false),
+                    dbl_hol_ot = table.Column<decimal>(type: "numeric", nullable: false),
+                    dbl_hol_ot_1 = table.Column<decimal>(type: "numeric", nullable: false),
+                    dbl_hol_ot_2 = table.Column<decimal>(type: "numeric", nullable: false),
+                    dbl_hol_ot_3 = table.Column<decimal>(type: "numeric", nullable: false),
+                    dbl_hol_rd = table.Column<decimal>(type: "numeric", nullable: false),
+                    dbl_hol_rd_1 = table.Column<decimal>(type: "numeric", nullable: false),
+                    dbl_hol_rd_2 = table.Column<decimal>(type: "numeric", nullable: false),
+                    dbl_hol_rd_3 = table.Column<decimal>(type: "numeric", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_time_attend", x => x.payroll_id);
+                    table.PrimaryKey("PK_time_attend", x => x.id);
                 });
         }
 
@@ -163,6 +208,9 @@ namespace illiminatado_exam.Migrations
 
             migrationBuilder.DropTable(
                 name: "pay_regs");
+
+            migrationBuilder.DropTable(
+                name: "tbl_m_employee");
 
             migrationBuilder.DropTable(
                 name: "time_attend");

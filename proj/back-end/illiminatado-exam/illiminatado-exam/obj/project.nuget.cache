@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YOKys1PTmPU=",
+  "dgSpecHash": "OagRTrtUUts=",
   "success": true,
-  "projectFilePath": "C:\\Users\\arman\\OneDrive\\Desktop\\illiminatado-exam\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj",
+  "projectFilePath": "C:\\Users\\arman\\Downloads\\illiminatado-exam\\illiminatado-exam\\proj\\back-end\\illiminatado-exam\\illiminatado-exam\\illiminatado-exam.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arman\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

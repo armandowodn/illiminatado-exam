@@ -1,5 +1,6 @@
 using illiminatado_exam.Data;
 using illiminatado_exam.Data.Seed;
+using illiminatado_exam.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +25,7 @@ builder.Services.AddCors(opt =>
          .AllowAnyHeader()
          .AllowAnyMethod());
 });
+builder.Services.AddScoped<Helpers>();
 
 var app = builder.Build();
 //ARMAND ADDED : SEEDER
@@ -31,6 +33,11 @@ using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     DbSeeder.Seed(context);
+}
+if (args.Contains("--seed"))
+{
+    DbSeederRunner.Run(app.Services);
+    return; // stop app from running
 }
 
 //ARMAND ADDED : Configure the HTTP request pipeline.
